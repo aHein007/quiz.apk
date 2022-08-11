@@ -1,0 +1,71 @@
+@tailwind base;
+
+
+/* default  */
+.option-default{
+    @apply cursor-pointer
+}
+
+.option-default div:nth-child(1) {
+    @apply hidden
+}
+
+.option-default div:nth-child(2) div:nth-child(1){
+    @apply inline
+}
+
+.option-default div:nth-child(2){
+    @apply bg-white text-black
+}
+
+.option-default div:nth-child(2) div:nth-child(1){
+    @apply bg-gray-400
+}
+
+/* wrong answer */
+.option-wrong{
+    @apply cursor-pointer
+}
+
+.option-wrong div:nth-child(1) {
+    @apply hidden
+}
+
+.option-wrong div:nth-child(2) div:nth-child(1){
+    @apply inline
+}
+
+.option-wrong div:nth-child(2){
+    @apply bg-rose-600 text-white
+}
+
+.option-wrong div:nth-child(2) div:nth-child(1){
+    @apply bg-gray-600
+}
+
+
+/* corret answer */
+.option-corret{
+    @apply cursor-pointer
+}
+
+/* .option-corret div:nth-child(1) {
+    @apply hidden
+} */
+
+.option-corret div:nth-child(2) div:nth-child(1){
+    @apply inline
+}
+
+.option-corret div:nth-child(2){
+    @apply bg-green-600 text-white
+}
+
+.option-corret div:nth-child(2) div:nth-child(1){
+    @apply bg-gray-600
+}
+
+
+
+@tailwind components;
+@tailwind utilities;

@@ -65,7 +65,9 @@
     @apply bg-gray-600
 }
 
-
+.progress{
+    @apply translate-x-8
+}
 
 @tailwind components;
 @tailwind utilities;
